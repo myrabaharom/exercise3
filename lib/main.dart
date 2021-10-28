@@ -118,7 +118,7 @@ class _State extends State<SignUpApp>
             Container(
               height: 50,
                 padding: EdgeInsets.fromLTRB(10,10,10,0),
-                child~: ElevatedButton(
+                child: ElevatedButton(
                   child: Text('SIGN UP'),
                   onPressed:(){
                     final snackBar = SnackBar(
